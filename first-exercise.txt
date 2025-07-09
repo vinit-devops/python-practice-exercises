@@ -7,6 +7,17 @@ Ravi is an aspiring professional gamer who tracks his performance in each game h
     His first game's score sets the initial record. Every time he scores higher than his highest so far, it's a new "high score". 
     Every time he scores lower than his lowest so far, it's a new "low score".
 Write a function to calculate how many times Ravi sets new high and low score records during the season.
+  Input:
+    n: Integer — total number of games played.
+    scores: List of integers — Ravi’s scores for each game, in order.
+  Output:
+     Return a list with two integers:
+     Index 0: Number of times Ravi broke his highest score record.
+     Index 1: Number of times Ravi broke his lowest score record.
+  Constraints:
+     1 <= n <= 1000
+     0 <= scores[i] <= 10^8
+
 
 
 
