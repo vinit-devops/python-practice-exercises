@@ -32,3 +32,16 @@ scores = [6, 18, 4, 22, 3, 8, 7, 12, 19, 9]
 n=len(scores)
 result = trackRecords(n, scores)
 print(result)
+
+
+#Solution 3
+
+from datetime import datetime
+
+date1 = datetime.strptime("2022-08-15", "%Y-%m-%d").date()
+date2 = datetime.strptime("04/12/20", "%d/%m/%y").date()
+date3 = datetime.strptime("March 3, 2005", "%B %d, %Y").date()
+
+print(date1)
+print(date2)
+print(date3)
