@@ -25,6 +25,11 @@ Utilize Python’s built-in datetime module to create date objects for the follo
 March 3, 2005
 Make sure to handle different date formats appropriately.
 
+Question 4 -
+Python program that accepts user input in any common date format and prints it in a standardized format (YYYY-MM-DD)
+
+
+
 
 
 
