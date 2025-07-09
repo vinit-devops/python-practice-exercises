@@ -3,7 +3,9 @@
 import sys
 
 print("Python version:")
-print(sys.version)
+version = sys.version.split()
+print(version[0])
+
 
 # Solution 2
 def trackRecords(n, scores):
