@@ -1,4 +1,4 @@
-#Solution 1
+# Solution 1
 
 import sys
 
@@ -28,13 +28,13 @@ def trackRecords(n, scores):
             low = score
             
     return result
-scores = [6, 18, 4, 22, 3, 8, 7, 12, 19, 9]
-n=len(scores)
-result = trackRecords(n, scores)
-print(result)
+#scores = [6, 18, 4, 22, 3, 8, 7, 12, 19, 9]
+#n=len(scores)
+#result = trackRecords(n, scores)
+#print(result)
 
 
-#Solution 3
+# Solution 3
 
 from datetime import datetime
 
@@ -45,3 +45,19 @@ date3 = datetime.strptime("March 3, 2005", "%B %d, %Y").date()
 print(date1)
 print(date2)
 print(date3)
+
+
+# Solution 4
+
+from datetime import datetime
+from dateutil import parser
+
+user_input = input("Enter a date in any format: ")
+
+try:
+    parsed_date = parser.parse(user_input)
+    formatted_date = parsed_date.strftime("%Y-%m-%d")
+    print("Formatted Date:", formatted_date)
+except ValueError:
+    print("Invalid date format.")
+# Note: There should be distinction between date and month while passing input else program may misbehave
