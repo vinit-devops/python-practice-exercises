@@ -18,6 +18,12 @@ Write a function to calculate how many times Ravi sets new high and low score re
      1 <= n <= 1000
      0 <= scores[i] <= 10^8
 
+Question 3 -
+Utilize Python’s built-in datetime module to create date objects for the following dates:
+15th August 2022
+04/12/20
+March 3, 2005
+Make sure to handle different date formats appropriately.
 
 
 
