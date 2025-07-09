@@ -1,0 +1,13 @@
+Question 1 -
+Write a Python program to print the version of Python currently being used.
+
+Question 2 -
+Ravi is an aspiring professional gamer who tracks his performance in each game he plays throughout a season. 
+    He wants to know how many times he beats his personal best and worst scores during the season. 
+    His first game's score sets the initial record. Every time he scores higher than his highest so far, it's a new "high score". 
+    Every time he scores lower than his lowest so far, it's a new "low score".
+Write a function to calculate how many times Ravi sets new high and low score records during the season.
+
+
+
+
