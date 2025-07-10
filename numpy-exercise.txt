@@ -1,0 +1,16 @@
+Question 1 -
+Given a target integer and a list of integers, find the element in the list that is closest in value to the target.
+
+Example:
+Target: a = 36
+List: [12, 20, 29, 37, 44, 51, 63, 70]
+
+Output:
+Closest element: 37
+
+Question 2 -
+You are provided with an array of integers. Your task is to replace every even number with -1.
+
+arr = [5, 8, 13, 16, 21, 22, 27, 30]
+Result →
+[5, -1, 13, -1, 21, -1, 27, -1]
